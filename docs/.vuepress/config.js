@@ -31,7 +31,18 @@ module.exports = {
       },
       {text: 'Github', link: 'https://github.com/lgf196/ant-simple-pro'}      
     ],
-    sidebar: 'auto', // 侧边栏配置
-    sidebarDepth: 2, // 侧边栏显示2级
+    sidebar:{  // 侧边栏配置 
+       '/guide/':[
+          {
+            title:'基础',
+            collapsable: false,
+            sidebarDepth:1, 
+            children: [
+              ['','介绍'],
+              ['basis/about.md','基本配置']
+            ]
+          },
+       ]
+    }
   }
 };
