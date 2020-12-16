@@ -40,7 +40,7 @@ module.exports = {
             sidebarDepth:1, 
             children: [
               ['','介绍'],
-              ['basis/about.md','基本配置']
+              ['basis/layout.md','布局']
             ]
           },
        ]
