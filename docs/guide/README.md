@@ -8,6 +8,13 @@
 
 [ant-simple-pro](http://panjiachen.github.io/vue-element-admin) 是一款支持[vue3.0](https://github.com/vuejs/vue)，[react](https://github.com/facebook/react)，[angular](https://github.com/angular/angular)，[typescript](https://github.com/microsoft/TypeScript)等多框架支持的中台前端解决方案，ui使用[antd](https://github.com/ant-design/ant-design)实现的，它使用了最新的前端技术栈，内置了 i18 国际化解决方案，动态路由，响应式设计，开箱即用，它可以帮助你快速搭建企业级中后台产品原型，不管你是vue开发者，还是react,或者angular，都能在这里找到你想要的版本。
 
+::: tip
+
+1. 本项目内部集成了[ant-design](https://github.com/ant-design/ant-design)，不需要在进行二次下载和配置了，我们已近按需加载配置好了，具体的项目依赖包，请查看`package.json`，本项目除了ui使用ant-design之外，其它的组件ui均自已编写。
+2. 现在的版本是[1.0]()版本，也是一个初创版本，肯定会有很多常见的功能没有，我们会在后期的版本中不断的更新进来，像代码的质量，本项目的整体布局，我们也会在后面的版本中进行优化和修改，还希望小伙伴们不要急，耐心的等待，本项目会一直维护下去的，不用担心没人维护的问题:stuck_out_tongue_winking_eye:，该项目的 bug :bug:，大家可以去[issues](https://github.com/lgf196/ant-simple-pro/issues)上题问，我们会在一个星期内，回复大家的反馈:blush:。
+
+:::
+
 ## 前序准备
 
 你需要在本地安装 [node](http://nodejs.org/) 和 [git](https://git-scm.com/)，异步请求数据用[axios](https://github.com/axios/axios)，所有的异步接口均采用node+typescript+mysql+[docker](https://www.docker.com/)实现的，本项目技术栈基于vue3.0,react,angular,typescrpt,antd等技术，所以最好先了解如下知识：
@@ -109,11 +116,13 @@ npm run dev
 
 ## 游览器支持
 
-大部分主流游览器和 Internet Explorer 11+.
+| **Edge** |   **Firefox**   |   **Chrome**    |   **Safari**    |
+| :------: | :-------------: | :-------------: | :-------------: |
+|   Edge   | last 2 versions | last 2 versions | last 2 versions |
 
-| **IE / Edge** |   **Firefox**   |   **Chrome**    |   **Safari**    |
-| :-----------: | :-------------: | :-------------: | :-------------: |
-|  IE11, Edge   | last 2 versions | last 2 versions | last 2 versions |
+::: tip
+本项目不支持IE游览器（Internet Explorer），因为vue3.0中的[propy](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy)不支持IE，而且react17.0之后也将不在对IE支持了，微软官方，也明确不在更新IE了，建议大家用Edge。
+:::
 
 ##  生态圈
 
