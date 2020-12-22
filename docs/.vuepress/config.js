@@ -43,6 +43,7 @@ module.exports = {
               ['basis/layout.md','布局'],
               ['basis/router.md','路由'],
               ['basis/style.md','样式'],
+              ['basis/server.md','服务端交互'],
             ]
           },
        ]
