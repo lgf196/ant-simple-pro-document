@@ -47,6 +47,14 @@ module.exports = {
               ['basis/deploy.md','构建与发布'],
             ]
           },
+          {
+            title:'进阶',
+            collapsable: false,
+            sidebarDepth:1, 
+            children: [
+              ['advanced/afterEnd.md','服务端']
+            ]
+          },
        ]
     }
   }
