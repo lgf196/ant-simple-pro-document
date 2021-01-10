@@ -30,6 +30,12 @@ module.exports = {
           { text: 'English', link: '/language/english' }
         ]
       },
+      {
+        text: '预览',
+        items: [
+          { text: 'react', link: 'http://lgf196.top/react' }
+        ]
+      },
       {text: 'Github', link: 'https://github.com/lgf196/ant-simple-pro'}      
     ],
     sidebar:{  // 侧边栏配置 
@@ -45,6 +51,17 @@ module.exports = {
               ['basis/style.md','样式'],
               ['basis/server.md','服务端交互'],
               ['basis/deploy.md','构建与发布'],
+            ]
+          },
+          {
+            title:'vue',
+            collapsable: false,
+            sidebarDepth:1,
+            children: [
+              ['vue/quick-start.md','快速上手'],
+              ['vue/layout.md','布局'],
+              ['vue/style.md','样式'],
+              ['vue/request.md','请求']
             ]
           },
           {
