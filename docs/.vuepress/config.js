@@ -61,7 +61,8 @@ module.exports = {
               ['vue/quick-start.md','快速上手'],
               ['vue/layout.md','布局'],
               ['vue/style.md','样式'],
-              ['vue/request.md','请求']
+              ['vue/request.md','请求'],
+              ['vue/deploy.md','部署']
             ]
           },
           {
