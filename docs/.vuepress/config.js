@@ -22,20 +22,20 @@ module.exports = {
           { text: 'ant-simple-pro(angular)', link: 'https://github.com/lgf196/ant-simple-pro/tree/angular/angular'},
         ]
       },
-      {text: '捐赠', link: '/donate'},
-      {
-        text: 'Languages',
-        items: [
-          { text: '简体中文', link: '/language/chinese' },
-          { text: 'English', link: '/language/english' }
-        ]
-      },
-      {
-        text: '预览',
-        items: [
-          { text: 'react', link: 'http://lgf196.top/react' }
-        ]
-      },
+      // {text: '捐赠', link: '/donate'},
+      // {
+      //   text: 'Languages',
+      //   items: [
+      //     { text: '简体中文', link: '/language/chinese' },
+      //     { text: 'English', link: '/language/english' }
+      //   ]
+      // },
+      // {
+      //   text: '预览',
+      //   items: [
+      //     { text: 'react', link: 'http://lgf196.top/react' }
+      //   ]
+      // },
       {text: 'Github', link: 'https://github.com/lgf196/ant-simple-pro'}      
     ],
     sidebar:{  // 侧边栏配置 
@@ -54,8 +54,8 @@ module.exports = {
             ]
           },
           {
-            title:'vue',
-            collapsable: false,
+            title:'vue3',
+            collapsable: true,
             sidebarDepth:1,
             children: [
               ['vue/quick-start.md','快速上手'],

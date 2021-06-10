@@ -109,10 +109,13 @@ npm run dev
 
 接下来你可以修改代码进行业务开发了，本项目内集成了异步,ant-design，一些常见的组件，让你快速搭建一个中台项目，其它你可以继续阅读和探索左侧的其它文档。
 
-## 捐赠
+## 点赞/学习
 
-如果你觉得这个项目帮助到了你，你可以去[GitHub](https://github.com/lgf196/ant-simple-pro) 给作者点个star，或者也可以赞赏作者一杯果汁，以此表示鼓励:heart:
-[赞赏地址](/zh/donate/)
+- 如果你觉得这个项目帮助到了你，你可以去[GitHub](https://github.com/lgf196/ant-simple-pro) 给作者点个star，作者就会很开心了:heart:
+- 技术交流群扫码进入，一起学习，一起成长，不懂问题大家一起讨论
+<p align="left">
+  <img width="100" src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6d6d3f624f4143fe8833d2458aeaf002~tplv-k3u1fbpfcp-zoom-1.image">
+</p>
 
 ## 游览器支持
 
