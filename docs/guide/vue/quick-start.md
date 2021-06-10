@@ -69,4 +69,4 @@ npm install --registry=https://registry.npm.taobao.org
 ```
 推荐使用 [nrm](https://github.com/Pana/nrm) 进行镜像源管理
 
-3. 启动完成后打开浏览器访问 [http://localhost:9050](http://localhost:9050)，如果需要更改启动端口，可在 `vue.config.js` 修改。
+3. 启动完成后打开浏览器访问 [http://localhost:9050](http://localhost:3000)，如果需要更改启动端口，可在 `vue.config.js` 修改。

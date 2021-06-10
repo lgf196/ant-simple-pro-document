@@ -62,7 +62,8 @@ module.exports = {
               ['vue/layout.md','布局'],
               ['vue/style.md','样式'],
               ['vue/request.md','请求'],
-              ['vue/deploy.md','部署']
+              ['vue/deploy.md','部署'],
+              ['vue/typescript.md','Vue + Typescript']
             ]
           },
           {
@@ -71,6 +72,14 @@ module.exports = {
             sidebarDepth:1, 
             children: [
               ['advanced/afterEnd.md','服务端']
+            ]
+          },
+          {
+            title:'vue组件',
+            collapsable: false,
+            sidebarDepth:1,
+            children: [
+              ['vue-components/context-menu.md','context-menu 右键菜单']
             ]
           },
        ]
