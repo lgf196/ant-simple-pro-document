@@ -79,7 +79,12 @@ module.exports = {
             collapsable: false,
             sidebarDepth:1,
             children: [
-              ['vue-components/context-menu.md','context-menu 右键菜单']
+              ['vue-components/context-menu.md','context-menu 右键菜单'],
+              ['vue-components/cropper.md','cropper 图片裁剪'],
+              ['vue-components/for-editor.md','markdown 编辑器'],
+              ['vue-components/image-preview.md','image-preview 图片预览'],
+              ['vue-components/qrcode.md','qrcode 二维码'],
+              ['vue-components/tinymce.md','tinymce 富文本编辑器'],
             ]
           },
        ]
