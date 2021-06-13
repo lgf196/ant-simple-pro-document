@@ -8,6 +8,9 @@ module.exports = {
   markdown: {
     lineNumbers: false // 代码块显示行号
   },
+  plugins: [
+    '@vuepress/back-to-top'
+  ],
   themeConfig: {
     nav:[ // 导航栏配置
       { text: '指南', link: '/guide/' },
@@ -85,6 +88,19 @@ module.exports = {
               ['vue-components/image-preview.md','image-preview 图片预览'],
               ['vue-components/qrcode.md','qrcode 二维码'],
               ['vue-components/tinymce.md','tinymce 富文本编辑器'],
+              ['vue-components/codemirror.md','codemirror 代码编辑器'],
+              ['vue-components/grid-layout.md','grid-layout UI grid 布局'],
+              ['vue-components/emoji-mart.md','emoji 表情选择器'],
+              ['vue-components/color-picker.md','color-picker 颜色选择器'],
+            ]
+          },
+          {
+            title:'vue-hooks',
+            collapsable: false,
+            sidebarDepth:1,
+            children: [
+              ['vue-hooks/useAsync.md','useAsync'],
+              ['vue-hooks/useHotkeys.md','useHotkeys']
             ]
           },
        ]

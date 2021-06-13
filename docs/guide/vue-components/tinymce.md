@@ -24,3 +24,29 @@ export default defineComponent({
 })
 </script>
 ```
+
+## Available Props
+prop                | type                 | default value   | description
+--------------------|----------------------|-----------------|--------------
+`value(v-model)`    | `string`             | `''`                | 输入框内容
+`height`       | `number`             | 360                | 编辑器高度
+`placeholder`           | `string`            | `请输入内容`          | 占位文本
+`toolbar`            | `string[]`             |          | 工具栏
+`menubar`           | `MenubarItem[]`  | `['file', 'edit', 'insert', 'view', 'format', 'table', 'tools']` | 顶部菜单栏(按顺序显示)
+
+### `toolbar` default value
+```javascript
+const toolbar = [
+  'code undo redo restoredraft | cut copy paste pastetext | forecolor backcolor bold italic underline strikethrough link anchor | alignleft aligncenter alignright alignjustify outdent indent',
+  'styleselect formatselect fontselect fontsizeselect | bullist numlist | blockquote subscript superscript removeformat',
+  'table image media charmap emoticons hr pagebreak insertdatetime print preview | fullscreen | bdmap indent2em lineheight formatpainter importword customerimageupload'
+]
+```
+
+### `MenubarItem`
+```typescript
+type MenubarItem = 'file' | 'edit' | 'insert' | 'view' | 'format' | 'table' | 'tools' | 'help'
+```
+
+相关链接:
+- [tiny中文文档](http://tinymce.ax-z.cn/)
