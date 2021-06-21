@@ -25,7 +25,6 @@
 import { defineComponent, ref } from 'vue'
 import CropImage from '@/components/cropper/index.vue'
 import UploadImage from '@/components/upload-image/index.vue'
-import { fileToDataURI } from '@/utils/image'
 export default defineComponent({
   components: {
     CropImage,
@@ -39,11 +38,8 @@ export default defineComponent({
     const resolveFile = ref()
 
     function onFileChange(file, resolve) {
-      fileToDataURI(file).then(dataURI => {
-        src.value = dataURI
-        fileRef.value = file
-        visible.value = true
-      })
+      fileRef.value = file
+      visible.value = true
       resolveFile.value = resolve
     }
 
